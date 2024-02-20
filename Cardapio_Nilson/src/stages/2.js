@@ -6,7 +6,7 @@ import { STAGES } from './index.js'
 export const stageTwo = {
   async exec(params) {
     const message = params.message.trim()
-    const isMsgValid = /[1|2|3|4|5|#|*]/.test(message)
+    const isMsgValid = /[0|1|2|3|4|5|#|*]/.test(message)
 
     let msg =
       '❌ *Digite uma opção válida, por favor.* \n⚠️ ```APENAS UMA OPÇÃO POR VEZ``` ⚠️'
