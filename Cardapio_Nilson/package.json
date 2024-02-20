@@ -1,10 +1,18 @@
 {
-  "dependencies": {
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.23.0",
-    "whatsapp.js": "^0.0.1"
-  },
+  "name": "botwhatsapp",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "start": "node cardapio_nilson.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "venom-bot": "^5.0.20"
   }
 }
